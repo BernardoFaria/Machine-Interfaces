@@ -1,0 +1,9 @@
+Grupo 21
+
+1 - botão redundante setas e um que da para fazer scroll
+2 - o botao home é quadadrado e nao se percebe à primeira vista que é confuso
+3 - o calendario do weather nao é perceptivel
+4 - botao dos alertas pars confirmar
+5 - para reservar uma casa de banho nao sao muito perceptiveis
+6 - n oecra principal existe uma imagem d eum relogio, nao consegui perceber pelo que tive de perguntar ao grupo em questao para me explicarem o que rra, er aos alertas dos concertos
+7 - demasiado texto
