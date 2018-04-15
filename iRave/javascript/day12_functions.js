@@ -24,7 +24,3 @@ function date() {
 		document.getElementById('date').innerHTML = d + "/" + m + "/" + y;
 		console.log("today");
 }
-
-function changeScreens() {
-	
-}
