@@ -4,6 +4,7 @@
 	border: 3px solid grey;
 	border-radius: 15px;
 	display: inline-block;
+	/*margin: 200px;*/
 	margin-top: 270px;
 	margin-bottom: 200px;
 	margin-left: 700px;	
@@ -12,7 +13,6 @@
 	width : 180px;
 	z-index: 200;	
 }
-
 
 .button_forward {
 	position: absolute;
@@ -64,40 +64,25 @@
 	display: inline-block;
 }
 
-
-#hours {
-	position: absolute;
-    margin-top: 6px;
-	margin-left: 65px;
-	font-size: 20px;
-	font-family: Helvetica;
-	z-index: 300;
-	color: #ffffff;
+.table_header {
+    position: absolute;
+    z-index: 300;
+    color: white;
+    margin-top: 285px;
+    margin-left: 746px;
+    font-family: Helvetica;
 }
 
-
-#lineup {
-	position: absolute;
-	margin-top: 310px;
-	margin-bottom: 197px;
-	margin-left: 728px;	
-	margin-right: 700px;
-    z-index: 210;
-	height: 130px;
-	width : 130px;
-	border-radius: 15px;
-	background: #333333;
-}
-
-#second {
-	position: absolute;
-	border-radius: 10px;
-	margin-top: 450px;
-	margin-left: 715px;
-	margin-bottom: 280px;
-	margin-right: 700px;
-	height: 20px;
-	width: 155px;
-	z-index: 300;
+table{
+    position: absolute;
+    border: 1px solid #333333;
+    z-index: 300;
+    font-size: 12.5px;
+    margin-top: 315px;
+    margin-left: 710px;
+    color: white;
+    height: 16%;
+    width: 9%;
+    font-family: Helvetica;
 }
 

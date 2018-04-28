@@ -64,40 +64,50 @@
 	display: inline-block;
 }
 
-
-#hours {
-	position: absolute;
-    margin-top: 6px;
-	margin-left: 65px;
-	font-size: 20px;
-	font-family: Helvetica;
-	z-index: 300;
-	color: #ffffff;
-}
-
-
-#lineup {
-	position: absolute;
-	margin-top: 310px;
-	margin-bottom: 197px;
-	margin-left: 728px;	
-	margin-right: 700px;
+.button1 {
+    position: absolute;
     z-index: 210;
-	height: 130px;
-	width : 130px;
-	border-radius: 15px;
-	background: #333333;
+    background-color: #ecc87a;
+    color: black;
+    display: inline-block;
+    cursor: pointer;
+    display: block;
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+    margin-top: 290px;
+    margin-left: 718px;
+    border-radius: 15px;
 }
 
-#second {
-	position: absolute;
-	border-radius: 10px;
-	margin-top: 450px;
-	margin-left: 715px;
-	margin-bottom: 280px;
-	margin-right: 700px;
-	height: 20px;
-	width: 155px;
-	z-index: 300;
+.button2 {
+    position: absolute;
+    z-index: 210;
+    background-color: #ecc87a;
+    color: black;
+    display: inline-block;
+    cursor: pointer;
+    display: block;
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+    margin-top: 353px;
+    margin-left: 718px;
+    border-radius: 15px;
 }
 
+.button3 {
+    position: absolute;
+    z-index: 210;
+    background-color: #ecc87a;
+    color: black;
+    display: inline-block;
+    cursor: pointer;
+    display: block;
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+    margin-left: 718px;
+    margin-top: 415px;
+    border-radius: 15px;
+}

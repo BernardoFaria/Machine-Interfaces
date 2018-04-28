@@ -1,0 +1,21 @@
+Palco 1:
+    - Judas Priest
+    - Led Zeppelin
+    - Black Sabbath
+    - Megadeth
+    - Slayer
+
+
+Palco 2:
+    - Metallica
+    - Anthrax
+    - Cradle of Filth
+    - Ronnie James Dio
+    - Arch Enemy
+    
+Palco 3
+    - Jimi Hendrix
+    - Lamb of God
+    - Bloodbath
+    - Children of Bodom
+    - Kreator

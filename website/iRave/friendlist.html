@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>iRave</title>
+		<link rel="stylesheet" href="./css/linup_style.css">
+		<script src="./javascript/lineup_functions.js"></script>
+	</head>
+	<body onload="time()">
+		<div><img id="strap_up" src="./media/watch/strap_up.png"></div>
+		<div><img id="strap_down" src="./media/watch/strap_down.png"></div>
+		
+    
+		<div class="watch">
+	        <center><div id="hours"></div></center>
+	    </div>
+		
+		<div class="button_forward" onclick="location.href='location.html'"></div>
+		
+		<div class="button_return" onclick="location.href='friendfinder.html'"></div>
+	    
+	<div style="border:1px solid black;
+				 width:300px;
+				height:100px;
+			  overflow:scroll;
+			overflow-y:scroll;
+			overflow-x:hidden;">
+			
+		<p style="height:250%;">
+			<ul id="myList">
+			  <li>Antonieta</li>
+			  <li>Maria Faia</li>
+			</ul>
+		</p>
+	</div>
+	
+	<button onclick="myFunction()">Add a Friend</button>
+	
+	<script>
+		function myFunction() {
+	 	   var node = document.createElement("LI");
+	    	var textnode = document.createTextNode("Algus Novus");
+	    	node.appendChild(textnode);	
+	    	document.getElementById("myList").appendChild(node);
+		}
+	</script>
+	</body>
+</html>

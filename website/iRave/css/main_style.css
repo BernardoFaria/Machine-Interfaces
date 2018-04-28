@@ -4,6 +4,7 @@
 	border: 3px solid grey;
 	border-radius: 15px;
 	display: inline-block;
+	/*margin: 200px;*/
 	margin-top: 270px;
 	margin-bottom: 200px;
 	margin-left: 700px;	
@@ -13,6 +14,18 @@
 	z-index: 200;	
 }
 
+.lineup {
+	position: absolute;
+	border-radius: 15px;
+	display: block;
+	margin-top: 200px;
+	margin-left: 700px;
+	margin-bottom: 280px;
+	margin-right: 700px;
+	height: 2000px;
+	width: 180px;
+	z-index: 210;
+}
 
 .button_forward {
 	position: absolute;
@@ -64,40 +77,38 @@
 	display: inline-block;
 }
 
-
 #hours {
-	position: absolute;
-    margin-top: 6px;
-	margin-left: 65px;
-	font-size: 20px;
+	position: relative;
+	margin-top: 12%;
 	font-family: Helvetica;
-	z-index: 300;
+	z-index: 10;
+	height: 100px;
+	font-size: 60px;
 	color: #ffffff;
 }
 
-
-#lineup {
-	position: absolute;
-	margin-top: 310px;
-	margin-bottom: 197px;
-	margin-left: 728px;	
-	margin-right: 700px;
-    z-index: 210;
-	height: 130px;
-	width : 130px;
-	border-radius: 15px;
-	background: #333333;
+#date {
+	position: relative;	
+	color: black;
+	font-family: Helvetica;
+	z-index: 10;
+	height: 50px;
+	width: 50px;
+	font-size: 30px;
+	display: inline-block;
+	margin-right: 100px;
+	margin-top: 26px;
+	color: #ffffff;
 }
 
-#second {
-	position: absolute;
-	border-radius: 10px;
-	margin-top: 450px;
-	margin-left: 715px;
-	margin-bottom: 280px;
-	margin-right: 700px;
-	height: 20px;
-	width: 155px;
-	z-index: 300;
+#line_up {
+	position: relative;
+	background: #333333;
+	margin-top: 2px;
+	margin-left: 3px;
+	z-index: 210;
+	height: 203.7px;
+	width: 180px;
+	border-radius: 15px;
 }
 
