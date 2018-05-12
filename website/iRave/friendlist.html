@@ -2,46 +2,49 @@
 <html>
 	<head>
 		<title>iRave</title>
-		<link rel="stylesheet" href="./css/linup_style.css">
-		<script src="./javascript/lineup_functions.js"></script>
+		<link rel="stylesheet" href="./css/friendfinder.css">
+		<script src="./javascript/friendfinder.js"></script>
 	</head>
-	<body onload="time()">
+
+	<body>
 		<div><img id="strap_up" src="./media/watch/strap_up.png"></div>
 		<div><img id="strap_down" src="./media/watch/strap_down.png"></div>
-		
-    
-		<div class="watch">
-	        <center><div id="hours"></div></center>
-	    </div>
-		
-		<div class="button_forward" onclick="location.href='location.html'"></div>
-		
+
+		<div class="watch"></div>
+
+		<div class="button_forward"></div>
+
 		<div class="button_return" onclick="location.href='friendfinder.html'"></div>
-	    
-	<div style="border:1px solid black;
-				 width:300px;
-				height:100px;
-			  overflow:scroll;
-			overflow-y:scroll;
-			overflow-x:hidden;">
-			
-		<p style="height:250%;">
+
+		<p>FRIEND LIST</p>
+
+		<div>
 			<ul id="myList">
-			  <li>Antonieta</li>
-			  <li>Maria Faia</li>
+		  	<li onclick="location.href='friend1Location.html'">Beatriz Ferreira</li>
+		  	<li onclick="location.href='friend2Location.html'">Maria Rodrigues</li>
+				<li onclick="location.href='friend3Location.html'">Jimi Hendrix</li>
 			</ul>
-		</p>
-	</div>
-	
-	<button onclick="myFunction()">Add a Friend</button>
-	
-	<script>
-		function myFunction() {
-	 	   var node = document.createElement("LI");
-	    	var textnode = document.createTextNode("Algus Novus");
-	    	node.appendChild(textnode);	
-	    	document.getElementById("myList").appendChild(node);
-		}
-	</script>
+		</div>
+
+		<button class="addbutton" onclick="location.href='addFriend.html'">ADD</button>
+		<button class="removebutton" onclick="location.href='removeFriend.html'">REMOVE</button>
+		<!--button onclick="myFunction()">ADD A FRIEND</button-->
+
+		<script>
+			function myFunction() {
+    		var x = document.getElementById("mySelect");
+    		var option = document.createElement("option");
+    		option.text = "Kiwi";
+    		x.add(option);
+			}
+		 	</script>
+		<!--script>
+			function myFunction() {
+		 	   var node = document.createElement("LI");
+		    	var textnode = document.createTextNode("Algus Novus");
+		    	node.appendChild(textnode);
+		    	document.getElementById("myList").appendChild(node);
+			}
+		</script-->
 	</body>
 </html>

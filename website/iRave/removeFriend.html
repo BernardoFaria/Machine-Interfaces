@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>iRave</title>
+		<link rel="stylesheet" href="./css/removeFriend.css">
+		<!--script src="./javascript/friendfinder.js"></script-->
+	</head>
+
+	<body>
+		<div><img id="strap_up" src="./media/watch/strap_up.png"></div>
+		<div><img id="strap_down" src="./media/watch/strap_down.png"></div>
+
+		<div class="watch"></div>
+
+		<div class="button_forward"></div>
+
+		<div class="button_return" onclick="location.href='friendlist.html'"></div>
+
+		<p>REMOVE A FRIEND</p>
+
+		<!--div>
+      <ul id="myList">
+		  	<li onclick="removeFriend()">Beatriz Ferreira</li>
+		  	<li onclick="removeFriend()">Maria Rodrigues</li>
+				<li onclick="removeFriend()">Jimi Hendrix</li>
+			</ul>
+		</div-->
+
+    <form>
+      <br>
+        <select id="myList" size="4">
+          <option>Beatriz Ferreira</option>
+          <option>Maria Rodrigues</option>
+          <option>Jimi Hendriz</option>
+        </select>
+      </form>
+      <br>
+
+    <button onclick="removeFriend()">Remove</button>
+
+		<!--button onclick="myFunction()">ADD A FRIEND</button-->
+
+		<script>
+			function removeFriend() {
+    		var x = document.getElementById("myList");
+    		x.remove(x.selectedIndex);
+			}
+		</script>
+		<!--script>
+			function myFunction() {
+		 	   var node = document.createElement("LI");
+		    	var textnode = document.createTextNode("Algus Novus");
+		    	node.appendChild(textnode);
+		    	document.getElementById("myList").appendChild(node);
+			}
+		</script-->
+	</body>
+</html>

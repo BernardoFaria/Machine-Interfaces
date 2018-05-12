@@ -1,0 +1,134 @@
+.watch {
+	position :absolute;
+	background: #333333;
+	border: 3px solid grey;
+	border-radius: 15px;
+	display: inline-block;
+	margin-top: 270px;
+	margin-bottom: 200px;
+	margin-left: 700px;
+	margin-right: 700px;
+	height: 200px;
+	width : 180px;
+	z-index: 200;
+}
+
+
+.button_forward {
+	position: absolute;
+	background: #333333;
+	border-top: 3px solid grey;
+	border-right: 3px solid grey;
+	border-bottom: 3px solid grey;
+	display: inline-block;
+	height: 30px;
+	width: 10px;
+	z-index: 200;
+	margin-top: 305px;
+	margin-left:886px;
+}
+
+.button_return {
+	position: absolute;
+	background: #333333;
+	border-top: 3px solid grey;
+	border-right: 3px solid grey;
+	border-bottom: 3px solid grey;
+	display: inline-block;
+	height: 30px;
+	width: 10px;
+	z-index: 200;
+	margin-top: 410px;
+	margin-left: 886px;
+	margin-right: 800px;
+	cursor: pointer;
+}
+
+
+#strap_up {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	margin-left: 695px;
+	margin-top: 148px;
+	z-index: 10;
+	display: inline-block;
+}
+
+#strap_down {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	margin-left: 697px;
+	margin-top: 408px;
+	z-index: 10;
+	display: inline-block;
+}
+
+p {
+	position: absolute;
+	margin-top: 278px;
+	margin-left: 744px;
+	z-index: 250;
+	color: white;
+	font-family: Helvetica;
+}
+
+#myList {
+	position:absolute;
+	border-top: 2px solid #ecc87a;
+	width:136px;
+	height:100px;
+	overflow:scroll;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	margin-top: 305px;
+	margin-left: 705px;
+	z-index: 250;
+	color: white;
+	font-family: Helvetica;
+}
+
+li {
+    padding: 10px;
+    margin-right: -100px;
+		margin-left: -38px;
+		padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.addbutton {
+		position: absolute;
+	  z-index: 210;
+	  background-color: #ecc87a;
+	  color: black;
+	  display: inline-block;
+	  cursor: pointer;
+	  display: block;
+	  width: 80px;
+	  height: 40px;
+	  font-size: 12px;
+	  margin-top: 418px;
+	  margin-left: 708px;
+	  border-radius: 15px;
+}
+
+.removebutton {
+		position: absolute;
+	  z-index: 210;
+	  background-color: #ecc87a;
+	  color: black;
+	  display: inline-block;
+	  cursor: pointer;
+	  display: block;
+	  width: 80px;
+	  height: 40px;
+	  font-size: 12px;
+	  margin-top: 418px;
+	  margin-left: 798px;
+	  border-radius: 15px;
+}

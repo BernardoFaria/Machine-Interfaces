@@ -7,11 +7,11 @@
 	/*margin: 200px;*/
 	margin-top: 270px;
 	margin-bottom: 200px;
-	margin-left: 700px;	
+	margin-left: 700px;
 	margin-right: 700px;
 	height: 200px;
 	width : 180px;
-	z-index: 200;	
+	z-index: 200;
 }
 
 .lineup {
@@ -39,6 +39,7 @@
 	z-index: 200;
 	margin-top: 305px;
 	margin-left:886px;
+	cursor: pointer;
 }
 
 .button_return {
@@ -88,7 +89,7 @@
 }
 
 #date {
-	position: relative;	
+	position: relative;
 	color: black;
 	font-family: Helvetica;
 	z-index: 10;
@@ -111,4 +112,3 @@
 	width: 180px;
 	border-radius: 15px;
 }
-

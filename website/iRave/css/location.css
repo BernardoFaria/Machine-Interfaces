@@ -1,0 +1,87 @@
+.watch {
+	position :absolute;
+	background: #333333;
+	border: 3px solid grey;
+	border-radius: 15px;
+	display: inline-block;
+	/*margin: 200px;*/
+	margin-top: 270px;
+	margin-bottom: 200px;
+	margin-left: 700px;
+	margin-right: 700px;
+	height: 200px;
+	width : 180px;
+	z-index: 200;
+}
+
+.button_forward {
+	position: absolute;
+	background: #333333;
+	border-top: 3px solid grey;
+	border-right: 3px solid grey;
+	border-bottom: 3px solid grey;
+	display: inline-block;
+	height: 30px;
+	width: 10px;
+	z-index: 200;
+	margin-top: 305px;
+	margin-left:886px;
+}
+
+.button_return {
+	position: absolute;
+	background: #333333;
+	border-top: 3px solid grey;
+	border-right: 3px solid grey;
+	border-bottom: 3px solid grey;
+	display: inline-block;
+	height: 30px;
+	width: 10px;
+	z-index: 200;
+	margin-top: 410px;
+	margin-left: 886px;
+	margin-right: 800px;
+	cursor: pointer;
+}
+
+
+#strap_up {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	margin-left: 695px;
+	margin-top: 148px;
+	z-index: 10;
+	display: inline-block;
+}
+
+#strap_down {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	margin-left: 697px;
+	margin-top: 408px;
+	z-index: 10;
+	display: inline-block;
+}
+
+#location {
+	position: absolute;
+	border-radius: 15px;
+	display: block;
+	margin-top: 292px;
+	margin-left: 725px;
+	height: 130px;
+	width: 130px;
+	z-index: 210;
+}
+
+p {
+  position: absolute;
+  color: white;
+  font-style: Helvetica;
+  margin-left: 758px;
+  margin-top: 435px;
+  z-index: 210;
+  font-size:26px;
+}

@@ -7,11 +7,11 @@
 	/*margin: 200px;*/
 	margin-top: 270px;
 	margin-bottom: 200px;
-	margin-left: 700px;	
+	margin-left: 700px;
 	margin-right: 700px;
 	height: 200px;
 	width : 180px;
-	z-index: 200;	
+	z-index: 200;
 }
 
 .button_forward {
@@ -41,6 +41,7 @@
 	margin-top: 410px;
 	margin-left: 886px;
 	margin-right: 800px;
+	cursor: pointer;
 }
 
 
@@ -85,4 +86,3 @@ table{
     width: 9%;
     font-family: Helvetica;
 }
-
