@@ -1,0 +1,123 @@
+.watch {
+	position :absolute;
+	background: #333333;
+	border: 3px solid grey;
+	border-radius: 15px;
+	display: inline-block;
+	margin-top: 270px;
+	margin-bottom: 200px;
+	margin-left: 700px;
+	margin-right: 700px;
+	height: 200px;
+	width : 180px;
+	z-index: 200;
+}
+
+
+.button_forward {
+	position: absolute;
+	background: #333333;
+	border-top: 3px solid grey;
+	border-right: 3px solid grey;
+	border-bottom: 3px solid grey;
+	display: inline-block;
+	height: 30px;
+	width: 10px;
+	z-index: 200;
+	margin-top: 305px;
+	margin-left:886px;
+	cursor: pointer;
+}
+
+.button_return {
+	position: absolute;
+	background: #333333;
+	border-top: 3px solid grey;
+	border-right: 3px solid grey;
+	border-bottom: 3px solid grey;
+	display: inline-block;
+	height: 30px;
+	width: 10px;
+	z-index: 200;
+	margin-top: 410px;
+	margin-left: 886px;
+	margin-right: 800px;
+	cursor: pointer;
+}
+
+
+#strap_up {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	margin-left: 695px;
+	margin-top: 148px;
+	z-index: 10;
+	display: inline-block;
+}
+
+#strap_down {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	margin-left: 697px;
+	margin-top: 408px;
+	z-index: 10;
+	display: inline-block;
+}
+
+
+#hours {
+	position: absolute;
+    margin-top: 6px;
+	margin-left: 65px;
+	font-size: 20px;
+	font-family: Helvetica;
+	z-index: 300;
+	color: #ffffff;
+}
+
+
+#spot {
+	position: absolute;
+	margin-top: 310px;
+	margin-bottom: 197px;
+	margin-left: 728px;
+	margin-right: 700px;
+  z-index: 210;
+	height: 130px;
+	width : 130px;
+	border-radius: 12px;
+	background: #333333;
+	cursor: pointer;
+}
+
+#ball {
+	position: absolute;
+	margin-top: 445px;
+	margin-left: 730px;
+	z-index: 210;
+	height: 22px;
+}
+
+#left {
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	font-style: helvetica;
+	margin-top: 444px;
+	margin-left: 708px;
+	z-index: 210;
+	cursor: pointer;
+}
+
+#right {
+	position: absolute;
+	font-style: helvetica;
+	color: white;
+	font-size: 20px;
+	margin-top: 444px;
+	margin-left: 860px;
+	z-index: 210;
+	cursor: pointer;
+}
